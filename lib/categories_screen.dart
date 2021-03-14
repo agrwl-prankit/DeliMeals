@@ -5,7 +5,7 @@ import 'category_item.dart';
 class CategoriesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( // because it is main screen so return AppBar
       appBar: AppBar(
         title: const Text('DeliMeals'),
       ),
